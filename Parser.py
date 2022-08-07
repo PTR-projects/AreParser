@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import csv
+import glob
+import os
 
 x = []
 Xacc = []
@@ -23,10 +25,20 @@ Hx_0_g=0
 Y_0_g=0
 Z_0_g=0
 
-
-
 cnt=0
-with open('MEAS12.csv','r') as csvfile:
+
+
+
+fileList = os.listdir()
+csvList = []
+
+for file in fileList:
+    if file.startswith("MEAS"):
+        csvList.append(file)
+
+
+
+with open(csvList[0],'r') as csvfile:
 	lines = csv.reader(csvfile, delimiter=',')
 	for row in lines:
             if cnt==6:
@@ -102,12 +114,7 @@ axis[1, 1].set_ylabel('m/s')
 
 
 #plt.xticks(rotation = 30)
-"""
-axis[0, 0].grid()
-axis[1, 0].grid()
-axis[1, 1].grid()
-axis[0, 1].grid()
-"""
+
 
 plt.show()
 
