@@ -7,7 +7,7 @@ To use this software you need to put a file with measurments into folder with Pa
 ```shell
 python Parser.py
 ```
-**Keep in mind that this program will open first file with name *"MEAS*.csv"* That is present in folder, for opening multiple files keep them in separate folders**
+**Keep in mind that this program will open first file with name |MEAS*.csv| That is present in folder, for opening multiple files keep them in separate folders**
 After few seconds, depending on .csv file size window should pop up. 
 
 ## Data format
