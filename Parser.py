@@ -52,20 +52,23 @@ with open(csvList[0],'r') as csvfile:
                 Y_0_g=int(row[1])
             elif cnt==11:
                 Z_0_g=int(row[1])
-            elif cnt > 25:
-                x.append(row[0])
-                Xacc.append((int(row[1])-X_0_g)/X_1_g)
-                Yacc.append((int(row[2])-Y_0_g)/X_1_g)
-                Zacc.append((int(row[3])-Z_0_g)/X_1_g)
+            elif cnt >= 25:
+                if row[0]!="Rocket angle at launch":
+                    x.append(float(row[0]))
+                    Xacc.append((int(row[1])-X_0_g)/X_1_g)
+                    Yacc.append((int(row[2])-Y_0_g)/X_1_g)
+                    Zacc.append((int(row[3])-Z_0_g)/X_1_g)
 
-                P.append(int(row[5])/100)
-                Kp.append(int(row[6])/100)
+                    P.append(int(row[5])/100)
+                    Kp.append(int(row[6])/100)
 
-                AltP.append(float(row[9]))
-                Alt.append(float(row[10]))
+                    AltP.append(float(row[9]))
+                    Alt.append(float(row[10]))
 
-                Vaxis.append(float(row[8]))
-                Vp.append(float(row[12]))
+                    Vaxis.append(float(row[8]))
+                    Vp.append(float(row[12]))
+                else:
+                    break
 
 
             cnt+=1
