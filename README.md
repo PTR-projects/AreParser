@@ -2,11 +2,15 @@
 
 ##Installing
 
-In order to run program you need python 3 with isntalled matplotlib and csv
+In order to run program you need python 3 with isntalled matplotlib 
 ```shell
 pip install matplotlib
+```
+and csv
+```shell
 pip install csv
 ```
+
 ## Usage
 
 To use this software you need to put a file with measurments into folder with Parser.py and then execute said .py file with:
