@@ -35,3 +35,6 @@ After opening window, 4 subplots should appear:
 * [Instructions manual (PL)](https://drive.google.com/file/d/1ujWXMafTv1fnUb7v_bf8Bu2hM3gAQGBD/view)
 * [Instructions manual (EN)](https://drive.google.com/file/d/1kpMVD8JVcOfqZkLpwjSBWpt2eQ2miaQd/view)
 * [Configuration tool](https://drive.google.com/file/d/1b-haXZP8a1FCob4YfWzAAo6OGfvEhVCZ/view)
+
+## All above software is made using funding from [Odkrywcy Diamentów](https://odkrywcydiamentow.com.pl/)
+![alt text](https://odkrywcydiamentow.com.pl/wp-content/uploads/2017/09/cropped-Odkrywcy_logo-1.png)
