@@ -1,6 +1,6 @@
 # Parser ad data visualizer for Arecoreder 
 
-##Installing
+## Installing
 
 In order to run program you need python 3 with isntalled matplotlib 
 ```shell
