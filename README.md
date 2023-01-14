@@ -28,7 +28,7 @@ After opening window, 4 subplots should appear:
 * First one visualizes accelerations on all 3 axis in `24g` range
 * Second plots pressure in form of RAW data and Kalman filtered
 * Third shows altitude obtained from pressure and second order acceleration integral
-* Las one is velocity from pressure and acceleration integral
+* Last one is velocity from pressure and acceleration integral
 
 ## Sources:
 * [Arecorder thread](https://www.forum.rakiety.org.pl/viewtopic.php?t=3039)
