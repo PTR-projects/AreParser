@@ -2,7 +2,7 @@
 
 ## Installing
 
-In order to run program you need python 3 with isntalled matplotlib 
+In order to run program you need python 3 with installed matplotlib 
 ```shell
 pip install matplotlib
 ```
