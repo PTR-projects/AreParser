@@ -169,6 +169,3 @@ axis[1, 1].set_ylabel('m/s')
 # plt.xticks(rotation = 30)
 
 plt.show()
-
-def test_placeholder():
-    pass
